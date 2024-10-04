@@ -1,10 +1,11 @@
 
 import './App.css'
-import useMath from './custom hooks/useMath'
+import calculate from './utils/calculate'
+
 
 function App() {
  
-  const result = useMath(1, 5, '-')
+  const result = calculate(1,2,'+')
 
   return (
     <>
@@ -29,6 +30,7 @@ function App() {
         <button >0</button>
       </div>
       <div className="display">
+        <p>{result}</p>
         <input type="text" readOnly />
         
         </div>

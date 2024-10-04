@@ -8,8 +8,6 @@ function App() {
   const result = calculate(1,2,'+')
 
   return (
-    <>
-    <body>
       <div className="calc-container">
       <div className="buttons">
       <button>C</button>
@@ -35,8 +33,6 @@ function App() {
         
         </div>
       </div>
-      </body>
-    </>
   )
 }
 

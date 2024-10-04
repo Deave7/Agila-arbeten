@@ -1,8 +1,11 @@
-import { useState } from 'react'
+
 import './App.css'
+import useMath from './custom hooks/useMath'
 
 function App() {
-  
+ 
+  const result = useMath(1, 5, '-')
+
   return (
     <>
     <body>
